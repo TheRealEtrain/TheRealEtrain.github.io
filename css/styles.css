@@ -14,8 +14,7 @@ body {
 
 h1 {
     font-size: 2em;
-    font-family: 'kuashan';
-    border-bottom: 1px solid black;
+    font-family: 'kuashan', serif, cursive;
 }
 
 h3 {
