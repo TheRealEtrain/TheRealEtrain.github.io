@@ -1,0 +1,66 @@
+
+/*Ethan Day 4/8/22 */
+@font-face {
+	font-family: 'rubik';
+	src: url('../fonts/rubik-regular-webfont.woff') format('woff'),
+		url('../fonts/rubik-regular-webfont.woff2') format('woff2')
+}
+
+
+html {
+	background-image: url('../images/jewelry.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+	 
+#outerwrapper {	
+	width: 70%;
+	border-radius: 15%;
+	background: rgba(243,205,170, 0.4);
+	margin: auto;
+}
+
+main {
+	background: linear-gradient(#FFFFFF, #F0F9E6);
+	padding: 10px;
+	margin: 20px;
+	border-radius: 2em;
+	font-size: 1.25em;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 4em;
+}
+
+h2 {
+	font-family: 'rubik';
+	font-style: italic;
+	font-size: 2em;
+}
+
+nav > ul {
+	list-style: none;
+	font-size: 1.5em;
+	clear: left;
+}
+
+img {
+	float: left;
+	border-radius: 50%;
+}
+
+#addrightmargin {
+	margin-left: 10%;
+}
+
+footer {
+	font-size: 1em;
+	text-align: center;
+	padding: 10px;
+}
+
+
