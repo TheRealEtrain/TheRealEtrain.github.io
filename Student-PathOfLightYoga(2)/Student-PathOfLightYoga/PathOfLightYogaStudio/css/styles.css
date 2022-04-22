@@ -1,0 +1,103 @@
+/*Ethan Day 4/22/22*/
+/* Mobile */
+main ul {
+    list-style-image: url(../images/yogabullet.png);
+    margin-left: 3em;
+}
+
+header { 
+    background-color: #9BC1C2; 
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+body { 
+    background-image: url(../images/yogamobile.png);
+    color: #3F2860;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+h1 { 
+    text-indent: 1em;
+    line-height: 400%; 
+}
+
+.schedule {
+    border-collapse: collapse;
+    border: 1px solid;
+    width: 100%;
+    margin-bottom: .5em;
+}
+
+table tr td {
+    border: 1px solid;
+    text-align: center;
+}
+
+
+footer { 
+    background-color: #9BC1C2; 
+    font-size: small;
+    text-align: center;
+    font-style: italic;
+    padding: .5em;
+}
+
+address {
+    margin-bottom: .5em;
+}
+
+img {
+    display:none;
+}
+
+nav ul li{
+    font-weight: bold;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+/* Tablet */
+
+@media screen and (min-width:641px) {
+    h2 {
+        display:block;
+    }
+    img {
+        display: block;
+        align-items: flex-end;
+    }
+    nav ul li {
+        display: inline;
+    }
+    body { 
+        background-color: #F5F5F5;
+        color: #3F2860;
+        font-family: Verdana, Arial, sans-serif;
+        background-image: none;
+    }
+    
+    header { 
+        background-color: #9BC1C2; 
+        background-image: url(../images/lilyheader.jpg);
+        background-position: right;
+        background-repeat: no-repeat;
+    }
+    
+    h1 { 
+        text-indent: 1em;
+        line-height: 400%; 
+    }
+    
+    nav { 
+         font-weight: bold; 
+    }
+    
+    footer { 
+        background-color: #9BC1C2; 
+        font-size: small;
+        text-align: center;
+        font-style: italic;
+    }
+}
